@@ -6,6 +6,7 @@ import {
   flyToMarkerLocation,
 } from "./markerUtilities";
 import { initResponsiveMap } from "./helper";
+import { initHeatMapLayer } from "./heatmapUtility";
 
 const MapWidgetSdk = {
   initMap,
@@ -14,6 +15,7 @@ const MapWidgetSdk = {
   deleteMarker,
   addGeoJSONMarkers,
   flyToMarkerLocation,
+  initHeatMapLayer,
 };
 
 export default MapWidgetSdk;

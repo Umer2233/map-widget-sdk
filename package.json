@@ -1,5 +1,18 @@
 {
+  "name": "map-widget-sdk",
+  "version": "1.0.9",
+  "description": "An Interactive map sdk built on mapbox-gl",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "dependencies": {
-    "mapbox-gl": "^3.14.0"
-  }
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "mapbox-gl": "^3.14.0",
+    "rollup": "^4.46.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "author": "Umer",
+  "license": "MIT"
 }
